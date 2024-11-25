@@ -28,8 +28,7 @@ function App() {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="min-h-screen bg-background text-foreground">
         <Navbar />
-        
-        <main className="container mx-auto px-4">
+          <main className="container mx-auto px-4">
           {/* Main content sections */}
           <Hero />
           <About />
