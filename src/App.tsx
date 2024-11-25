@@ -15,6 +15,7 @@ import Education from '@/components/Education';
 import ResumeDownload from '@/components/ResumeDownload';
 import { Certifications } from '@/components/Certifications';
 
+
 function App() {
   useEffect(() => {
     // Initialize AOS animation library
