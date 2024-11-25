@@ -69,13 +69,14 @@ export default function Navbar() {
           </div>
         </div>
 
+        {/* Mobile Menu - AnimatePresence to handle transition */}
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden py-4"
+              className="md:hidden py-4 bg-background/90 absolute inset-0 top-16 z-40"
             >
               <div className="flex flex-col space-y-4">
                 {menuItems.map((item) => (
