@@ -13,7 +13,7 @@ import Skills from '@/components/Skills';
 import Contact from '@/components/Contact';
 import Education from '@/components/Education';
 import ResumeDownload from '@/components/ResumeDownload';
-import Certifications from '@/components/Certifications';
+import { Certifications } from '@/components/Certifications';
 
 function App() {
   useEffect(() => {
